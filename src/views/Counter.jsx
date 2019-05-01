@@ -8,6 +8,7 @@ import { useCounterContext } from "../context/CounterContext";
 export default function Counter() {
   return (
     <useCounterContext.Provider>
+      <h3>Counter</h3>
       <Segment textAlign="center">
         <CounterDisplay />
         <CounterButtons />
