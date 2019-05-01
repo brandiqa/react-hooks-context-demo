@@ -1,7 +1,7 @@
 {
-  "name": "react-parcel-starter",
+  "name": "react-hooks-context-demo",
   "version": "1.0.0",
-  "description": "This is a minimal React starter project. Only React and React DOM have been installed",
+  "description": "A simple project demonstration on how to manage application state using React Hooks and the Context API",
   "main": "src/index.html",
   "scripts": {
     "start": "parcel src/index.html",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brandiqa/react-parcel-starter.git"
+    "url": "git+https://github.com/brandiqa/react-hooks-context-demo.git"
   },
   "keywords": [
     "React",
-    "Parcel",
-    "Starter"
+    "Hooks",
+    "Context API"
   ],
   "author": "Michael Wanyoike",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brandiqa/react-parcel-starter/issues"
+    "url": "https://github.com/brandiqa/react-hooks-context-demo/issues"
   },
-  "homepage": "https://github.com/brandiqa/react-parcel-starter#readme",
+  "homepage": "https://github.com/brandiqa/react-hooks-context-demo#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
