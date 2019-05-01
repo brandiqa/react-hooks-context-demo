@@ -31,8 +31,11 @@
     "parcel-bundler": "^1.12.3"
   },
   "dependencies": {
+    "constate": "^1.1.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0"
   },
   "browserslist": [
     "last 1 Chrome version"
