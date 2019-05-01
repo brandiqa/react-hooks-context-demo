@@ -3,7 +3,7 @@ import { Segment, Header } from "semantic-ui-react";
 import ContactTable from "../components/ContactTable";
 import { useContactsContext } from "../context/ContactContext";
 
-export default function Counter() {
+export default function Contacts() {
   return (
     <useContactsContext.Provider>
       <Segment basic>
