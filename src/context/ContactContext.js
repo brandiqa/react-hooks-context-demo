@@ -20,7 +20,8 @@ const initialState = {
       email: "clark@metropolitan.com"
     }
   ],
-  loading: false
+  loading: false,
+  error: null
 };
 
 const reducer = (state, action) => {
@@ -46,7 +47,7 @@ const reducer = (state, action) => {
   }
 };
 
-function useContacts() {
+const useContacts = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { contacts, loading } = state;
   const addContact = (name, email) => {
@@ -62,6 +63,6 @@ function useContacts() {
     });
   };
   return { contacts, loading, addContact, delContact };
-}
+};
 
 export const useContactsContext = createUseContext(useContacts);
